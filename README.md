@@ -4,12 +4,6 @@ This repository contains [a script](generate_aliases.py) to generate hundreds of
 convenient shell aliases for kubectl, so you no longer need to spell out every single
 command and --flag over and over again.
 
-An example shell alias created from command/flags permutation looks like:
-
-    alias ksysgdepwslowidel='kubectl --namespace=kube-system get deployment --watch --show-labels -o=wide -l'
-
-Confused? Read on.
-
 ### Examples
 
 Some of the 800 generated aliases are:
