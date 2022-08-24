@@ -58,7 +58,7 @@ Add the following to your `.bashrc/.zshrc` file:
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 ```
 
-#### Fish(https://fishshell.com/)
+#### Fish (https://fishshell.com/)
 
 Add the following to your `~/.config/fish/config.fish` file:
 
