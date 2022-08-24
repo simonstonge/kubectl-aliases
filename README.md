@@ -117,22 +117,8 @@ python generate_aliases.py fish > .kubectl_aliases.fish
 
 ### FAQ
 
-- **Doesn't this slow down my shell start up?** Sourcing the file that contains
-~500 aliases takes about 30-45 milliseconds in my shell (zsh). I don't think
-it's a big deal for me. Measure it with `echo $(($(date +%s%N)/1000000))`
-command yourself in your .bashrc/.zshrc.
-
-- **Can I add more Kubernetes resource types to this?** Please consider forking
-  this repo and adding the resource types you want. Not all resource types are
-  used by everyone, and adding more resource types slows down shell initialization
-  see above).
-
 - **Where can I find PowerShell aliases for kubectl?** There’s a fork of this
   [here](https://github.com/shanoor/kubectl-aliases-powershell).
-
-### Authors
-
-- [@ahmetb](https://twitter.com/ahmetb)
 
 -----
 
